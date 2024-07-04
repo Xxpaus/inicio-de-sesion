@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+
+.Tarjeta{
+    padding: 20px;
+    border:solid black;
+    border-radius: 4px;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.Tarjeta img{
+    width: 100px;
+    height: 100px;
+}
