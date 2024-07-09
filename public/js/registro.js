@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem("datosUsuario", JSON.stringify(datos));
 
       
-        window.location.href = "sesion.html";
+        window.location.href = "./sesion.html";
     }
 
   

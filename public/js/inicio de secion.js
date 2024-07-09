@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 loginMessage.textContent = "Inicio de sesión exitoso.";
                 loginMessage.style.color = "green";
 
-                window.location.href = "tienda.html";
+                window.location.href = "/pages/tienda.html";
             } else {
                 loginMessage.textContent = "Correo o contraseña incorrectos.";
                 loginMessage.style.color = "red";
