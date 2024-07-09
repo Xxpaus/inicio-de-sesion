@@ -53,13 +53,6 @@ body {
     
 
 }
-
-@keyframes slide {
-    0% { transform: translateX(0%); }
-    33% { transform: translateX(-33.33%); }
-    66% { transform: translateX(-66.66%); }
-    100% { transform: translateX(0%); }
-}
 .footer {
     background-color: #333;
     color: white;
@@ -69,4 +62,12 @@ body {
     width: 100%;
     bottom: 0;
 }
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    33% { transform: translateX(-33.33%); }
+    66% { transform: translateX(-66.66%); }
+    100% { transform: translateX(0%); }
+}
+
 
