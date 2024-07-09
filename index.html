@@ -4,37 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="public/css/index.css">
-    <title>Formulario con Local Storage</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/public/css/index.css">
+    <title>Tienda de Ropa</title>
 </head>
 
 <body>
-    <h1>Formulario de Registro</h1>
-    <form id="formulario">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br><br>
+    <div class="navbar">
+        <a href="/pages/registro.html">Registro</a>
+        <a href="/pages/sesion.html">Inicio de Sesión</a>
+        <a href="/pages/sesion.html">Tienda</a>
+        <p>Fashion Elegance</p>
+    </div>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+    <div class="container">
+        <h1>Bienvenidos a Fashion Elegance </h1>
+        <p>En Fashion Elegance, creemos que cada prenda es una expresión de tu estilo único. Nuestra colección combina
+            lo último en tendencias globales con diseños atemporales, asegurando que siempre estés a la vanguardia de la
+            moda. Desde elegantes vestidos y sofisticados trajes hasta casuales y cómodos conjuntos, cada pieza está
+            cuidadosamente seleccionada por su calidad y estilo. Descubre la elegancia, la comodidad y el estilo en cada
+            rincón de nuestra tienda. ¡Tu moda, tu manera! ¡Explora nuestra tienda y encuentra tu estilo perfecto!</p>
 
-        <label for="telefono">Teléfono:</label>
-        <input type="tel" id="telefono" name="telefono" required><br><br>
+        <div class="slider">
+            <div class="slides">
+                <img src="/public/img/WhatsApp Image 2024-07-09 at 17.16.57.jpeg" alt="Imagen 1">
+                <img src="/public/img/WhatsApp Image 2024-07-09 at 17.17.10.jpeg" alt="Imagen 2">
+                <img src="/public/img/WhatsApp Image 2024-07-09 at 17.17.44.jpeg" alt="Imagen 3">
+                <img src="/public/img/WhatsApp Image 2024-07-09 at 17.17.52.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
 
-        <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password" required><br><br>
-
-        <button type="submit">Guardar</button>
-
-        <a> href="/pages/sesion.html">
-        <button id="loginButton">Ir a Inicio de Sesión</button>
-        </a>
-
-    </form>
-
-
-
-    <script src="public/js/index.js"></script>
+    <div class="footer">
+        <p>&copy; 2024 Tienda de Ropa. Todos los derechos reservados.</p>
+    </div>
 </body>
 
 </html>

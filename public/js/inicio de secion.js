@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const loginForm = document.getElementById("loginForm");
     const loginMessage = document.getElementById("loginMessage");
 
-    // Función para manejar el inicio de sesión
+
     function iniciarSesion(e) {
         e.preventDefault();
 
@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
             if (email === datosGuardados.email && password === datosGuardados.password) {
                 loginMessage.textContent = "Inicio de sesión exitoso.";
                 loginMessage.style.color = "green";
+
+                window.location.href = "/pages/tienda.html";
             } else {
                 loginMessage.textContent = "Correo o contraseña incorrectos.";
                 loginMessage.style.color = "red";
@@ -25,6 +27,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // Event listener para el formulario de inicio de sesión
     loginForm.addEventListener("submit", iniciarSesion);
+
 });
