@@ -62,7 +62,6 @@ body {
     width: fit-content;
     height: 130px;
     object-fit: cover;
-    max-width: 200px;
     justify-content: center;
     align-self: center;
 }
