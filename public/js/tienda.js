@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     <img src="${product.image}" alt="${product.title}">
                     <div class="details">
                         <h3>${product.title}</h3>
-                        <p>${product.description}</p>
                         <div class="price">$${product.price}</div>
+                        <button class="boton">buy</button>
                     </div>
                 `;
                 productGrid.appendChild(productCard);
